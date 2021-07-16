@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  robo:
+    image: adferrand/dnsrobocert
+    volumes:
+      - ./dnsrobocert/config.yml:/etc/dnsrobocert/config.yml
+      - ./letsencrypt:/etc/letsencrypt
+    restart: "no"
+
