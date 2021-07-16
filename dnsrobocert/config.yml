@@ -2,15 +2,15 @@ darft: false
 acme:
   email_account: aqaurius6666@gmail.com
   staging: true
-profiles:
-- name: profiles
-  provder: profile_provider
-  provider_options:
-    auth_username: root
-    auth_password: root    
+# profiles:
+# - name: profiles
+#   provder: profile_provider
+#   provider_options:
+#     auth_username: root
+#     auth_password: root    
 certificates:
 - domains:
   - "dev.nftal.io"
   - "*.ws.dev.nftal.io"
   - "*.dev.nftal.io"
-  profiles: profiles
+  # profiles: profiles
